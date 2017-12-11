@@ -328,7 +328,7 @@ bot.dialog('/enablecomputervision',
                             'actions': [
                                 {
                                     'type': 'Action.ShowCard',
-                                    'title': '',
+                                    'title': 'Beralih ke Indonesia',
                                     'card': {
                                         'type': 'AdaptiveCard',
                                         'body': [
