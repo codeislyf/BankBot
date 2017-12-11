@@ -536,6 +536,7 @@ var analyzeText = textAnalytics({
 bot.dialog('enablefeedback', [
     function(session, args,next)  {
         telemetry.trackEvent({ name: "Feedback" });
+        session.send('Okay. Your information has been gathered. Your application will be processed shortly!');
         builder.Prompts.text(session, 'Would you like to rate my service?');
     },
     function(session, response,next) {
