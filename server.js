@@ -123,7 +123,7 @@ bot.dialog('showCards', [
 
                                 {
                                     'type': 'TextBlock',
-                                    'text': 'Welcome to the Debit Cards finder!',
+                                    'text': 'Debit Cards finder!',
                                     'weight': 'bolder',
                                     'size': 'large'
                                 },
@@ -359,7 +359,7 @@ bot.dialog('/enablecomputervision',
                                             
                                             {
                                                 'type': 'TextBlock',
-                                                'text': 'Please confirm if these details are correct : Yes/No'
+                                                'text': 'Please confirm : Yes/No'
                                             },
                                             {
                                                 'type': 'TextBlock',
