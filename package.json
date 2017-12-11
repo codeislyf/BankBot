@@ -1,0 +1,38 @@
+{
+  "name": "bot-education-ocrbot",
+  "version": "1.0.0",
+  "description": "A basic OCR bot built with Microsoft Bot Framework Bot Builder",
+  "main": "server.js",
+  "dependencies": {
+    "applicationinsights": "^1.0.0",
+    "bluebird": "^3.4.7",
+    "botbuilder": "^3.6.0",
+    "botbuilder-location": "^2.0.0",
+    "dotenv-extended": "^2.0.1",
+    "formflowbotbuilder": "^0.1.4",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1",
+    "restify": "^4.3.0",
+    "url": "^0.11.0",
+    "util": "^0.10.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "na",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michhar/bot-education-ocrbot.git"
+  },
+  "keywords": [
+    "ocr",
+    "bot"
+  ],
+  "author": "M. Harris",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/michhar/bot-education-ocrbot/issues"
+  },
+  "homepage": "https://github.com/michhar/bot-education-ocrbot#readme"
+}
