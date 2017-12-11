@@ -14,7 +14,7 @@ var spellService = require('./spell-service');
 // Setup Restify Server
 var server = restify.createServer();
 var applicationInsights = require("applicationinsights");
-var telemetry = new applicationInsights.TelemetryClient("06dc0c53-d62e-43be-add5-ace7be50b7be");
+var telemetry = new applicationInsights.TelemetryClient("58979d71-95a3-4097-91e0-5ffd14d5cddd");
 var locationDialog = require('botbuilder-location');
 //bot.library(locationDialog.createLibrary("AmkiwfSNw3goQWsCgmY0ndia7gpRe6vko65cS4j7vkNO0XvokLitfk4JR3ynOzPu"));
 server.listen(process.env.port || process.env.PORT || 3978, function () {
