@@ -51,7 +51,7 @@ bot.recognizer(luisRecognizer);
 bot.dialog('priv', [
     function (session, args, next)  {
         telemetry.trackEvent({ name: "Privileges" });
-        session.send('PermataMe Privileges ! : Free to design PermataMe Card! as you wish, Free monthly administration fee, if your monthly average savings balance is greater than or equal to Rp 50.000, Free monthly administration fee PermataMe Card!');
+        session.send('Free to design PermataMe Card as you wish, free monthly administration fee, if your monthly average savings balance is greater than or equal to Rp 50.000, free monthly administration fee PermataMe Card!');
         session.endDialog('Is there something else I can help you with?');
     }]).triggerAction({ matches:'priv'});
 
